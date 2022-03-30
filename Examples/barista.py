@@ -10,9 +10,6 @@ else:
     print( "Hello " + name + " Thank you so much for coming in today")
     
     
-#brug variablen
-print( "Hello " + name + " Thank you so much for coming in today")
-
 menu = "Black coffee, Espresso, Latte, Hot Chocolate"
 
 print( name + " What would you like today? Here's our menu for the day\n" + menu)
@@ -27,6 +24,6 @@ number_coffee = input("How many would "+ order + " you like? \n")
 
 total = price * int(number_coffee)
  
-print ( total )
+print (" That will be", total )
 
 
