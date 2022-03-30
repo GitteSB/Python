@@ -24,6 +24,6 @@ number_coffee = input("How many would "+ order + " you like? \n")
 
 total = price * int(number_coffee)
  
-print (" That will be", total )
+print (" That will be", total)
 
 
