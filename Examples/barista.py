@@ -15,9 +15,9 @@ print("Sounds good " + name + " we'll have that " + order + " ready for you soon
 price = 8
 
 number_coffee = input("How many would "+ order + " you like? \n")
-
+# lave en string til int
 total = price * int(number_coffee)
- 
-print ( total )
+# lave en int tilbage til en str
+print ( "Thank you. Your total is:" + str(total) + "$" )
 
 
