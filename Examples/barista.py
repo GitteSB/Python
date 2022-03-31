@@ -1,10 +1,14 @@
 print("Hello, welcome to Nerdi Coffee!!!")
 # Lav en variable som er navnet
 name =input ("What is your name?\n")
+ if name == "Ben":
+     print("You're not welcome here!")
+     exit()
+else:
 #brug variablen
-print( "Hello " + name + " Thank you so much for coming in today")
+    print( "Hello " + name + " Thank you so much for coming in today")
 
-menu = "Black coffee, Espresso, Latte, Caramelmochiato"
+menu = "Black coffee, Espresso, Latte, Hot Chocolate"
 
 print( name + " What would you like today? Here's our menu for the day\n" + menu)
 
