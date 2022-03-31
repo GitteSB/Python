@@ -3,8 +3,13 @@ print("Hello, welcome to Nerdi Coffee!!!")
 name =input ("What is your name?\n")
 
 if name == "Ben":
-    print("You're not welcome here!")
-    exit()
+    evil = input("Are you evil?")
+    # nested if
+    if evil == "yes":
+        print("You're not welcome here!")
+        exit()
+    elif evil == "no":
+       print( "Hello " + name + "Nice to see you! Thank you so much for coming in today")  
 else:
     print( "Hello " + name + " Thank you so much for coming in today")
 
