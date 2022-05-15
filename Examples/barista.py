@@ -3,13 +3,16 @@ print("Hello, welcome to Nerdi Coffee!!!")
 name =input ("What is your name?\n")
 
 if name == "Ben":
-    print("You're not Welcome here")
-    exit()
+    evil = input("Are you evil?")
+    # nested if
+    if evil == "yes":
+        print("You're not welcome here!")
+        exit()
+    elif evil == "no":
+       print( "Hello " + name + "Nice to see you! Thank you so much for coming in today")  
 else:
-    #brug variablen name
     print( "Hello " + name + " Thank you so much for coming in today")
-    
-    
+
 menu = "Black coffee, Espresso, Latte, Hot Chocolate"
 
 print( name + " What would you like today? Here's our menu for the day\n" + menu)
@@ -21,9 +24,14 @@ print("Sounds good " + name + " we'll have that " + order + " ready for you soon
 price = 8
 
 number_coffee = input("How many would "+ order + " you like? \n")
-
+# lave en string til int
 total = price * int(number_coffee)
+
+# lave en int tilbage til en str
+print ( "Thank you. Your total is:" + str(total) + "$" )
+
  
-print (" That will be", total)
+
+
 
 
