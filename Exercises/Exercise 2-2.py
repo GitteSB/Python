@@ -32,3 +32,13 @@ print(wholesale)
 print("Exercise 3")
 print("Run at 2 paces")
 
+leave_at = (6*60)+52
+easy_pace = 8.15
+tempo = 7.12
+miles_easy = 2
+miles_tempo = 3
+
+back = leave_at +((easy_pace*miles_easy)+(tempo*miles_tempo))
+home_at = back/60
+
+print(home_at)
