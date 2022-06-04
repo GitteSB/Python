@@ -1,7 +1,7 @@
 
 import turtle
 
-def draw_spiral(t,n,length =3, a = 0.1, b=0.0004):
+def draw_spiral(t,n,length =3, a = 0.1, b=0.0004 ):
     """ drawing a Achimedian spiral starting at the origin
     Args;
     n: how many line segments to draw
