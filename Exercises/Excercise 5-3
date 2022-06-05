@@ -1,0 +1,15 @@
+import math
+
+def is_triangle(a,b,c):
+    if a!=b or b!=c or a!=c:
+        print("No!")
+    else:
+        print("Yes")
+
+def check_numbers():
+    a = int(input("Choose a lenght for side a: "))
+    b = int(input("Choose a lenght for side b: "))
+    c = int(input("Choose a lenght for side c: "))
+    return is_triangle(a, b, c)
+
+check_numbers()
